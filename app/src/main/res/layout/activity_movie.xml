@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/xeditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="박스오피스 날짜 조회 버튼을 클릭하세요." />
+
+    <Button
+        android:id="@+id/dateButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#928BC34A"
+        android:text="박스오피스 날짜 조회" />
+
+    <Button
+        android:id="@+id/xbutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#928BC34A"
+        android:text="요청하기" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="10dp"/>
+
+
+</LinearLayout>

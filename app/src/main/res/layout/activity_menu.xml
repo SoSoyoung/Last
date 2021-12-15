@@ -1,0 +1,66 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:padding="20dp"
+        android:layout_centerInParent="true"
+        android:background="#aaffffff"
+        >
+
+        <TextView
+            android:id="@+id/titleText"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="우리의 기록장"
+            android:textColor="#F34E870D"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/menu01Button"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:backgroundTint="#928BC34A"
+            android:text="전화 걸기"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/menu02Button"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:backgroundTint="#928BC34A"
+            android:text="영화 순위"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/menu03Button"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:backgroundTint="#928BC34A"
+            android:text="포토 타임"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/backButton"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:backgroundTint="#928BC34A"
+            android:text="로그아웃"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</RelativeLayout>
